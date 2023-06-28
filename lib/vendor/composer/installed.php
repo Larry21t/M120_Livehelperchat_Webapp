@@ -3,7 +3,7 @@
         'name' => 'livehelperchat/livehelperchat',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '17b06c52803fc560afea6772d26abd1c56a35a7f',
+        'reference' => 'c48d5afce6c724fb8336dd7899220655e21f52f4',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../../',
         'aliases' => array(),
@@ -19,10 +19,19 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'guzzlehttp/psr7' => array(
+            'pretty_version' => '2.5.0',
+            'version' => '2.5.0.0',
+            'reference' => 'b635f279edd83fc275f822a1188157ffea568ff6',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../guzzlehttp/psr7',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'livehelperchat/livehelperchat' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '17b06c52803fc560afea6772d26abd1c56a35a7f',
+            'reference' => 'c48d5afce6c724fb8336dd7899220655e21f52f4',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../../',
             'aliases' => array(),
@@ -36,6 +45,18 @@
             'install_path' => __DIR__ . '/../psr/http-client',
             'aliases' => array(),
             'dev_requirement' => false,
+        ),
+        'psr/http-factory-implementation' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '1.0',
+            ),
+        ),
+        'psr/http-message-implementation' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '1.0',
+            ),
         ),
     ),
 );
